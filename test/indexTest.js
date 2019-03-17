@@ -63,12 +63,12 @@ describe( "Square", () => {
     expect( square.area ).to.eq( 25 )
   } )
 
-  it( "checks for valid square", () => {
-    var square = new Square( [ 5, 5, 5, 5 ] )
-    var square2 = new Square( [ 5, 4, 3, 2 ] )
+  // it( "checks for valid square", () => {
+  //   var square = new Square( [ 5, 5, 5, 5 ] )
+  //   var square2 = new Square( [ 5, 4, 3, 2 ] )
 
-    expect( square.getCount ).to.eq( 4 )
-    expect( square.isValid ).to.be.true
-    expect( square2.isValid ).to.be.false
-  } )
+  //   expect( square.getCount ).to.eq( 4 )
+  //   expect( square.isValid ).to.be.true
+  //   expect( square2.isValid ).to.be.false
+  // } )
 } )
